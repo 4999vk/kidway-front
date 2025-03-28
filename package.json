@@ -1,0 +1,32 @@
+{
+  "name": "kidway-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4999vk/kidway-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/4999vk/kidway-front/issues"
+  },
+  "homepage": "https://github.com/4999vk/kidway-front#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.17.0",
+    "vite": "^6.2.3"
+  }
+}
