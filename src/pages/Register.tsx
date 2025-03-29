@@ -1,3 +1,4 @@
+import React from "react"; // Добавлен импорт React
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { registerUser } from "../features/usersSlice";
