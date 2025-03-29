@@ -2,7 +2,7 @@ import React from "react"; //
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../features/usersSlice";
-import { RootState, AppDispatch } from "../store";
+import { RootState, AppDispatch } from "../app/store";
 
 const Login = () => {
   const dispatch = useDispatch<AppDispatch>();

@@ -29,11 +29,16 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: hwb(2 3% 8% / 0.397); /* Цвет текста */
+  text-align: center; /* Выравнивание по центру */
+  font-family: "Arial", sans-serif; /* Шрифт для заголовка */
+  font-weight: bold; /* Жирный шрифт */
 }
+
+
 
 button {
   border-radius: 8px;
@@ -57,12 +62,12 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #e01212;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: hsl(240, 90%, 47%);
   }
 }
